@@ -1,0 +1,49 @@
+/*
+Colors Palette
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+body{
+  margin:0px;
+}
+.Main{
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.Card{
+  margin:0 auto;
+  background-color: hsl(0, 0%, 100%);
+  width: 25em;
+  height:36em;
+  position: absolute;
+  top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ border-radius: 2em;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+.Image{
+  width:22em;
+  border-radius: 2em;
+  padding-top: 1em;
+}
+.Heading{
+  text-align: center;
+  padding: 0em 2.16em;
+  font-size: 1.52em;
+  font-weight: 700;
+  font-family: 'Outfit';
+}
+.Para{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  padding: 0em 2em;
+}
